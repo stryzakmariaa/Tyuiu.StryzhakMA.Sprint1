@@ -6,7 +6,7 @@ namespace Tyuiu.StryzhakMA.Sprint1.Task2.V27.Lib
     {
         public int CalculateSquarePerimetr(int value)
         {
-            return value + value;
+            return value + value + value + value;
         }
     }
 }
