@@ -9,9 +9,9 @@ namespace Tyuiu.StryzhakMA.Sprint1.Task2.V27.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int x = 2;
+            int x = 12;
             var res = ds.CalculateSquarePerimetr(x);
-            Assert.AreEqual(4, res);
+            Assert.AreEqual(24, res);
         }
     }
 }
