@@ -11,11 +11,9 @@ namespace Tyuiu.StryzhakMA.Sprint1.Task6.V14.Test
         {
             string strTest = "абвгд"; 
             DataService ds = new DataService();
-
             
             bool res = ds.CheckLowerCaseRusLetters(strTest);
 
-            
             Assert.IsTrue(res);
         }
 
@@ -26,7 +24,6 @@ namespace Tyuiu.StryzhakMA.Sprint1.Task6.V14.Test
             DataService ds = new DataService();
 
             bool res = ds.CheckLowerCaseRusLetters(strTest);
-
             
             Assert.IsFalse(res);
         }

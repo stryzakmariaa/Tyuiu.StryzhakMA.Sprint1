@@ -14,7 +14,7 @@ namespace Tyuiu.StryzhakMA.Sprint1.Task6.V14
             Console.WriteLine("* Тема: Работа со строками класс String                                   *");
             Console.WriteLine("* Задание #6                                                              *");
             Console.WriteLine("* Вариант #14                                                             *");
-            Console.WriteLine("* Выполнила: Стрыжак М.А.                                                 *");
+            Console.WriteLine("* Выполнила: Стрыжак Мария Андреевна | АСОиУб-26-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу: пользователь вводит текст. Проверить, что строка    *");
