@@ -6,7 +6,7 @@ namespace Tyuiu.StryzhakMA.Sprint1.Task7.V23.Lib
     {
         public double Calculate(double x, double y)
         {
-            double res = x - Math.Pow(10, Math.Sin(x)) + 20*Math.Pow(x, 2) / 3*Math.Pow(x, 3) + Math.Cos(Math.Pow(x, 2) - y);
+            double res = x - Math.Pow(10, Math.Sin(x)) + (20*Math.Pow(x, 2)) / (3*Math.Pow(x, 3)) + Math.Cos(Math.Pow(x, 2) - y);
             return Math.Round(res, 3);
         }
     }
